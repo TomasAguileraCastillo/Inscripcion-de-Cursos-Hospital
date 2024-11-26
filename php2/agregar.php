@@ -2,7 +2,7 @@
 include("con_db.php");
 
 
-if (isset($_POST['btninscribir'])){
+if (isset($_POST['btninscribir'] )){
             if  (strlen($_POST['rut']) >= 1 && strlen($_POST['NMB']) >= 1 &&
                  strlen($_POST['APP']) >= 1 && strlen($_POST['APM']) >= 1 && strlen($_POST['EML']) >= 1 &&
                  strlen($_POST['CLR']) >= 1 && strlen($_POST['UN']) >= 1 && strlen($_POST['CARG']) >= 1){

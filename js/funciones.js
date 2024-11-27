@@ -3,7 +3,7 @@
 $("#btninscribir").click(function(){
     $("#formjornada").validate();
     opcion = 1; //alta           
-        var datitos=$('#formjornada').serialize();
+        var datitos=$('#formjornada').serialize() ;
         opcion = 1;
             $.ajax({
                 url: "php/CRUD_A.php",
